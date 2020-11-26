@@ -12,6 +12,7 @@ addhl shared/gd/comment-line region '#' '$' fill comment
 
 # basic syntax highlighting for inbuilt words
 addhl shared/gd/code/ regex '\b(?:extends|onready|const|var|extern|export|static|setget|tool|signal)\b' 0:keyword
+addhl shared/gd/code/ regex '\b(?:remote|remotesync|master|puppet)\b' 0:keyword
 addhl shared/gd/code/ regex '\b(?:class|class_name|enum)\b' 0:keyword
 addhl shared/gd/code/ regex '\b(?:if|elif|else|match|and|or|return)\b' 0:keyword
 addhl shared/gd/code/ regex '\b(?:while|for|in)\b' 0:keyword
